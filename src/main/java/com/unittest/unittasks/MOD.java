@@ -4,7 +4,7 @@ public class MOD {
 	private MOD(){
 		
 	}
-	public static int mod() {		
+	public static int mod(int num) {		
 		int n=123;
 		int temp=0;
 		int m;

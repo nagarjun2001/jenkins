@@ -5,7 +5,7 @@ public class SumOfDigits {
 		
 	}
 	
-	public static int sod() {
+	public static int sod(int num) {
 		int temp = 0;
 		int m;
 		int n = 123;
