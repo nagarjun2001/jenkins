@@ -1,8 +1,15 @@
 package com.unittest.unittasks;
 
 public class MOD {
-	public static int mod(int num) {
-		int n=123, temp=0, m;
+	private MOD(){
+		
+	}
+	public static int mod() {		
+		int n=123;
+		int temp=0;
+		int m;
+
+		System.Logger logger = System.getLogger("MOD");
 		if(n>0) {
 			while(n>0) {
 				m = n % 10;
@@ -11,7 +18,7 @@ public class MOD {
 				}
 				n = n / 10;
 			}
-			System.out.println(temp);
+			logger.log(System.Logger.Level.INFO, temp);
 			return 1;
 		}
 		else {
