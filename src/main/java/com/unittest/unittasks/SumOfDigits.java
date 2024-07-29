@@ -5,10 +5,10 @@ public class SumOfDigits {
 		
 	}
 	
-	public static int sod(int num) {
+	public static int sod(int n) {
 		int temp = 0;
 		int m;
-		int n = 123;
+		
 		if(n>0) {
 			while(n>0) {
 				m = n%10;

@@ -8,7 +8,7 @@ class MODTest {
 
 	@Test
 	void testMod() {
-		assertEquals(1, SumOfDigits.sod(123));
+		assertEquals(1, MOD.mod(123));
 	}
 
 }
